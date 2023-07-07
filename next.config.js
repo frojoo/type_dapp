@@ -3,7 +3,7 @@ const nextConfig = {
   webpack: (config) => {
     config.resolve.fallback = {
       encoding: false,
-      butterutil: false,
+      bufferutil: false,
       "utf-8-validate": false,
     };
 
